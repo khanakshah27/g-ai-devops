@@ -30,7 +30,7 @@ Analyzes a video file and returns the classification (Normal vs. Crime) and conf
 
 | Key | Type | Description |
 | :--- | :--- | :--- |
-| `file` | `File` | The video file to be analyzed. Supported formats: `.mp4`, `.avi`, `.mov`. |
+| `file` | `File` | The video file to be analyzed. Supported formats: `.mp4`, `.mov`. |
 
 #### Example Request (cURL)
 
@@ -39,7 +39,8 @@ curl -X POST "[https://khanak27-crime-detection-api.hf.space/predict](https://kh
   -H "x-api-key: default-secret-key" \
   -F "file=@/path/to/your/video.mp4"
 
-#### Example Response (Success - 200 OK)
+
+#### Example Response
 
 {
 
